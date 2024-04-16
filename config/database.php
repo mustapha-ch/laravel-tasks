@@ -139,7 +139,6 @@ return [
 
         'cache' => [
             'scheme' => 'tls',
-            'url' => env('REDIS_URL'),
             'host' => env('AZURE_REDIS_HOST', 'mustapha-cache.redis.cache.windows.net'),
             'username' => env('REDIS_USERNAME'),
             'password' => env('AZURE_REDIS_PASSWORD'),
